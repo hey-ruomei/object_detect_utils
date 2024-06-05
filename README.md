@@ -1,6 +1,7 @@
 # 一些做目标检测用的小工具
 ## 小目标检测
 - 切割图片：small_object_cut_image.py
+- 小目标图片预测，先将大图切割成小图调用模型进行预测后再将预测结果拼接回原图：predict_cut.py
 
 ## 用 yolo 训练时用到的一些处理处理小工具
 - detect 模型格式转换：detect_json2txt.py
